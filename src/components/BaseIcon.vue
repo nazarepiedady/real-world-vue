@@ -11,7 +11,7 @@ export default {
   name: 'BaseIcon',
   props: {
     name: String,
-    with: {
+    width: {
       type: [Number, String],
       default: 24,
     },
